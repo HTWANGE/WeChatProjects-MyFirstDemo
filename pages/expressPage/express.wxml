@@ -1,0 +1,9 @@
+<view class="container">
+  <input placeholder="请输入运单号" auto-focus/>
+  <button type="primary" bindtap="getExpressInfo"> 查询 </button>
+  <scroll-view scroll-y="true" style="height:100px;">
+    <view wx:for="{{expressInfo}}" wx:for-item="item">
+      {{item}}
+    </view>
+  </scroll-view>
+</view>

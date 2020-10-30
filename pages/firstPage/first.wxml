@@ -1,0 +1,23 @@
+<!-- 头部组件 -->
+<include src="../templates/header" />
+my first demo ...
+<button type="default" bindtap="btnToSecondView" hover-class="other-button-hover"> To Second Page </button>
+<button type="primary" bindtap="btnClick"> {{btnText}} </button>
+
+<text wx:if="{{isDisplay}}">{{text}}</text>
+
+<view wx:for="{{lists}}" wx:for-item="item" wx:for-index="ix">
+  {{ix}} - {{item}}
+</view>
+
+<view>
+<text>事件的类型</text>
+</view>
+<view wx:for="{{eventTypes}}" wx:for-item="item" wx:for-index="ix">
+  {{ix}} - {{item}}
+</view>
+
+<!-- 底部组件 -->
+<import src="../templates/footer" />
+<template is="footer1" data="{{text:'导入设置的内容'}}"/>
+<!-- <template is="footer2" /> -->

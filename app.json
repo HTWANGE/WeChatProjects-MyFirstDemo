@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/expressPage/express",
+    "pages/firstPage/first",
+    "pages/secondPage/second",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#DDD",
+    "navigationBarTitleText": "点点开黑",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_pizza.png",
+        "selectedIconPath": "images/icon_pizza.png",
+        "text": "披萨"
+      },
+      {
+        "pagePath": "pages/expressPage/express",
+        "iconPath": "images/icon_strawberry.png",
+        "selectedIconPath": "images/icon_strawberry.png",
+        "text": "草莓"
+      },
+      {
+        "pagePath": "pages/firstPage/first",
+        "iconPath": "images/icon_pecan.png",
+        "selectedIconPath": "images/icon_pecan.png",
+        "text": "碧根果"
+      },
+      {
+        "pagePath": "pages/secondPage/second",
+        "iconPath": "images/icon_avocado.png",
+        "selectedIconPath": "images/icon_avocado.png",
+        "text": "牛油果"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "sitemapLocation": "sitemap81.json"
+}
